@@ -2,6 +2,17 @@
 
 /* Buttons */
 
+body {
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 10%;
+  background-color: #F4F5F7;
+
+
+
+
+/* Buttons */
+
 .btn {
   border-radius: 0;
 }
