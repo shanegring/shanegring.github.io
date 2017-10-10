@@ -13,3 +13,12 @@ border-color: #429DB5;
 
 
 
+
+
+
+
+/* Badge */
+
+.badge {
+  border-radius: 0;
+}
