@@ -2,8 +2,14 @@
 
 /* Buttons */
 
+.btn {
+  border-radius: 0;
+}
 
 .btn-primary {
 background-color: #429DB5;
 border-color: #429DB5;
 }
+
+
+
