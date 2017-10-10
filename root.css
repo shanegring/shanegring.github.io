@@ -38,3 +38,9 @@ body {
 .input-group-addon {
   border-radius: 0;
 }
+
+.input-group-addon.form-control-lg, 
+.input-group-lg>.input-group-addon, 
+.input-group-lg>.input-group-btn>.input-group-addon.btn,
+  border-radius: 0;
+}
