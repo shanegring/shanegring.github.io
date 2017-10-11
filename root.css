@@ -21,10 +21,6 @@ body {
 
 
 
-
-
-
-
 /* Badge */
 
 .badge {
@@ -44,3 +40,13 @@ body {
 .input-group-lg>.input-group-btn>.input-group-addon.btn,
   border-radius: 0;
 }
+
+
+
+
+/* Forms */
+
+.form-control {
+  border-radius: 0;
+}
+  
