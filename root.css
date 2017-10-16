@@ -46,7 +46,7 @@ body {
 
 .form-control {
   border-radius: 0;
-  border: 1px solid #F4F5F7;
+  border: 1px solid rgba(0,0,0,.05);
 }
 
 .form-control-lg {
