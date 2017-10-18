@@ -55,3 +55,13 @@ body {
   border-radius: 0;
 }
   
+
+
+/* Forms */
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
