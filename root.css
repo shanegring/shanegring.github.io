@@ -80,6 +80,7 @@ body {
     color: #49A1B8;
     background-color: #fff;
     border-color: transparent;
+    box-shadow: 0 2px 4px 0 rgba(207,207,207,0.50);
 }
 
 
