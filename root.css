@@ -83,6 +83,10 @@ body {
     box-shadow: 0 2px 4px 0 rgba(207,207,207,0.50);
 }
 
+.nav-tabs {
+  border-bottom: 1px solid transparent;
+}
+
 
 
 
