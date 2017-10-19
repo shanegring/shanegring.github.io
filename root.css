@@ -87,6 +87,10 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+a .nav-link {
+  color: #979797
+}
+  
 
 
 
