@@ -38,6 +38,11 @@ body {
 a {
   color: #49A1B8;
 }
+
+a:hover {
+  color: #49A1B8;
+  opacity: .8;
+}
   
   
 
