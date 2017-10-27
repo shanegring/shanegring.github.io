@@ -22,7 +22,9 @@ body {
   border-radius: 0;
 }
 
-
+.btn-primary {
+  color: #49A1B8;
+}
 
 
 /* Badge */
