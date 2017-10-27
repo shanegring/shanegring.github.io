@@ -27,6 +27,14 @@ body {
   border-color: #49A1B8;
 }
 
+.btn-primary:hover {
+   color: #fff;
+   background-color: #49A1B8;
+   border-color: #49A1B8;
+   opacity: .8;
+}
+
+
 a {
   color: #49A1B8;
 }
