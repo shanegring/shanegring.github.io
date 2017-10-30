@@ -79,6 +79,22 @@ a:hover {
 
 
 
+/* Lists */
+.list-group-item:last-child {
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0rem;
+    border-top-left-radius: 0rem;
+}
+
+
+  
+  
+  
+
 /* Forms */
 
 .form-control {
@@ -94,7 +110,7 @@ a:hover {
   
 
 
-/* Forms */
+/* Navigation */
 .nav-tabs .nav-link {
     border: 0px solid transparent;
     border-top-left-radius: 0rem;
