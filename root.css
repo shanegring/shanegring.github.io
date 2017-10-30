@@ -90,6 +90,11 @@ a:hover {
     border-top-left-radius: 0rem;
 }
 
+.list-group-item:last-child {
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+
 
   
   
