@@ -107,6 +107,11 @@ a:hover {
 .form-control-lg {
   border-radius: 0;
 }
+
+.custom-select {
+  border: 1px solid rgba(0,0,0,.05);
+  border-radius: 0rem;
+}
   
 
 
