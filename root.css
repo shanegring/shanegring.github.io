@@ -82,6 +82,8 @@ a:hover {
 
 .badge {
   border-radius: 0;
+  padding: .4em .6em;
+  font-weight: 500;
 }
 
 
@@ -90,6 +92,7 @@ a:hover {
 .card {
 border: 0px solid rgba(255,255,255,.125);
 border-radius: 0rem;
+margin-bottom: 15px;
 }
 
 .card-img-top {
@@ -98,6 +101,9 @@ border-radius: 0rem;
 }
 
 
+.card .card-text {
+  font-weight: 100;
+}
 
 
 
