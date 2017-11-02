@@ -1,6 +1,6 @@
 
 
-h1, h2, h3, h4, h5, h6 {
+body, p, h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup  {
 font-family: museo-sans, sans-serif;
 font-style: normal;
 }
@@ -131,6 +131,22 @@ h5 {
   }
 }
 
+h6 {
+  font-size: .6em;
+  /* 1.125x body copy size = 18px */
+  line-height: 1em;
+}
+
+@media (min-width: 43.75em) {
+  h6 {
+    font-size: 1em;
+    line-height: 1em;
+    /* (22px / 18px */
+  }
+}
+
+
+
 blockquote {
   font-size: 1.25em;
   /* 20px / 16px */
@@ -148,9 +164,11 @@ blockquote {
 }
 
 b,strong{
-	font-weight:500;
+	font-weight:700;
 }
 a:focus{
 	border: 0;
 	outline: none;	
 }
+
+
