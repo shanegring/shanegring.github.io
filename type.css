@@ -1,6 +1,6 @@
 
 
-body, p, h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup  {
+body, h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup  {
 font-family: museo-sans, sans-serif;
 font-style: normal;
 }
@@ -144,6 +144,27 @@ h6 {
     /* (22px / 18px */
   }
 }
+
+p {
+  font-size: .8rem;
+
+  line-height: 1rem;
+  font-family: georgia,"times new roman",times,serif;
+}
+
+@media (min-width: 43.75em) {
+  p {
+    font-size: 1rem;
+      line-height: 1.625rem;
+
+  }
+}
+
+
+
+
+
+
 
 
 
