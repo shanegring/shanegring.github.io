@@ -104,7 +104,7 @@ a {
   color: #49A1B8;
 }
 
-a:hover {
+a:focus, a:hover {
   color: #49A1B8;
   opacity: .8;
 }
@@ -130,6 +130,13 @@ background-color: #C6B677;
 
 .badge-blue {
 background-color: #49A1B8;
+}
+
+
+.badge-notification {
+border-radius: 8px;
+padding: .4em .8em;
+margin-left: .4em;
 }
 
 
@@ -163,6 +170,10 @@ margin-bottom: 15px;
   font-weight: 100;
 }
 
+.card-header {
+  background-color: #fff;
+  border-bottom: 0px solid rgba(0,0,0,.125)
+}
 
 
 /* Inputs */
@@ -175,6 +186,10 @@ margin-bottom: 15px;
 .input-group-lg>.input-group-btn>.input-group-addon.btn {
   border-radius: 0;
 
+}
+
+.card-header-flip {
+  border-top: 1px solid rgba(0,0,0,.125);
 }
 
 
