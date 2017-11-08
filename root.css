@@ -17,15 +17,24 @@ body {
       box-shadow: 0 2px 4px 0 rgba(207,207,207,0.50);
 }
 
+/*
 .shadow:hover {
       box-shadow: 0 2px 4px 2px rgba(207,207,207,0.50);
+}
+*/
+
+.bg-white {
+  background-color: #fff;
 }
 
 .img-fluid {
   width: 100%;
 }
 
-
+.img-frame {
+  margin-left: -15px; 
+  margin-right: -15px;
+}
 
 
 /* Buttons */
@@ -98,9 +107,26 @@ a:hover {
   font-weight: 500;
 }
 
+.badge-silver {
+  background-color: #AFBEC0;
+}
+
+.badge-gold {
+background-color: #C6B677;
+}
+
+.badge-blue {
+background-color: #49A1B8;
+}
+
 
 
 /* Cards */
+
+.w-20 {
+  width: 20rem;
+}
+
 .card {
 border: 0px solid rgba(255,255,255,.125);
 border-radius: 0rem;
