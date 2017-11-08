@@ -27,13 +27,26 @@ body {
   background-color: #fff;
 }
 
-.img-fluid {
-  width: 100%;
-}
 
 .img-frame {
   margin-left: -15px; 
   margin-right: -15px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.h-15 {
+  height:15rem;
 }
 
 
@@ -127,6 +140,10 @@ background-color: #49A1B8;
   width: 20rem;
 }
 
+.w-23 {
+  width: 23rem;
+}
+
 .card {
 border: 0px solid rgba(255,255,255,.125);
 border-radius: 0rem;
@@ -155,9 +172,28 @@ margin-bottom: 15px;
 
 .input-group-addon.form-control-lg, 
 .input-group-lg>.input-group-addon, 
-.input-group-lg>.input-group-btn>.input-group-addon.btn,
+.input-group-lg>.input-group-btn>.input-group-addon.btn {
   border-radius: 0;
+
 }
+
+
+/* Lines */
+
+.gray-line {
+border-bottom: 2px solid #F4F5F7;
+}
+
+
+.dotted-line-lg {
+  border-bottom: 5px dotted #F4F5F7;
+}
+
+.dotted-line-sm {
+  border-bottom: 2px dotted #F4F5F7;
+}
+
+
 
 
 
