@@ -27,6 +27,13 @@ body {
   background-color: #fff;
 }
 
+.bg-blue {
+  background-color: #49A1B8;
+}
+
+.bg-blue* {
+  color: #fff;
+}
 
 .img-frame {
   margin-left: -15px; 
@@ -77,6 +84,10 @@ body {
 
 .btn {
   border-radius: 0;
+}
+
+.btn.focus, .btn:focus {
+box-shadow: 0 0 0 2px rgba(73,161,184,.25)
 }
 
 .btn-primary {
@@ -130,6 +141,7 @@ body {
 a {
   cursor: pointer;
   color: #626262;
+  text-decoration: none;
 }
 
 a:focus, a:hover {
@@ -137,6 +149,9 @@ a:focus, a:hover {
    color: #626262;
  }
 
+.no-line {
+  text-decoration: none;
+}
 
 .blue-link {
   color: #49A1B8;
@@ -156,8 +171,7 @@ a:focus, a:hover {
 }
 
 .underline {
-  text-transform: underline;
-
+  text-decoration: underline;
 }
   
   
@@ -206,7 +220,6 @@ margin-left: .4em;
 .card {
 border: 0px solid rgba(255,255,255,.125);
 border-radius: 0rem;
-margin-bottom: 15px;
 }
 
 .card-img-top {
@@ -222,12 +235,10 @@ margin-bottom: 15px;
   font-weight: 100;
 }
 
-/*
+
 .card-header {
-  background-color: #fff;
-  border-bottom: 0px solid rgba(0,0,0,.125)
+  background-color: #E8ECEF;
 }
-*/
 
 /* Inputs */
 .input-group-addon {
@@ -241,10 +252,12 @@ margin-bottom: 15px;
 
 }
 
-.card-header-flip {
+.card-header {
   border-top: 1px solid rgba(0,0,0,.125);
+  border-bottom: 0px solid rgba(0,0,0,.125);
   background-color: #fff;
 }
+
 
 
 /* Lines */
