@@ -56,7 +56,11 @@ body {
   height:15rem;
 }
 
-
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #49A1B8;
+}
 
 /* A-Spot */
 
@@ -147,6 +151,12 @@ a {
 a:focus, a:hover {
    opacity: .8;
    color: #626262;
+ }
+
+
+
+ .nav-item  a.active {
+  text-decoration: underline;
  }
 
 .no-line {
